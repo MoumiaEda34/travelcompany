@@ -1,0 +1,73 @@
+.accommodation-list {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.search-input {
+  width: 300px;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+.accommodation-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.accommodation-table th,
+.accommodation-table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #dee2e6;
+}
+
+.accommodation-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.accommodation-table tr:hover {
+  background-color: #e2e6ea;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.accommodation-list input {
+  float: right;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.accommodation-list h2 {
+  margin: 0;
+  padding-bottom: 0.5em;
+  color: rgb(18 61 131);
+  font-family: serif;
+  text-align: left;
+  font-size: 26px;
+}
+
+.accommodation-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.accommodation-list th,
+.accommodation-list td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.accommodation-list th {
+  background-color: rgb(9 24 48);
+  color: white;
+}

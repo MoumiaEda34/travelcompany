@@ -1,0 +1,976 @@
+{
+  "users": [
+    {
+      "id": "1f11",
+      "name": "Moumita Ahamed",
+      "email": "test@gmail.com",
+      "password": "123456",
+      "profileImage": "blob:http://localhost:3000/b92c5939-2c96-403a-a420-54103ecbad2c"
+    }
+  ],
+  "searches": [
+    {
+      "id": "1",
+      "destination": "Maldives",
+      "checkInDate": "2024-10-15",
+      "checkOutDate": "2024-10-20",
+      "guests": {
+        "adults": 2,
+        "children": 1,
+        "rooms": 1
+      }
+    },
+    {
+      "id": "2",
+      "destination": "Darjeeling",
+      "checkInDate": "2024-12-01",
+      "checkOutDate": "2024-12-05",
+      "guests": {
+        "adults": 1,
+        "children": 0,
+        "rooms": 1
+      }
+    },
+    {
+      "id": "be54",
+      "destination": "Nepal",
+      "checkInDate": "2024-10-10",
+      "checkOutDate": "2024-10-11",
+      "guests": {
+        "adults": 2,
+        "children": 0,
+        "rooms": 1
+      }
+    },
+    {
+      "id": "4340",
+      "destination": "Nepal",
+      "checkInDate": "2024-10-10",
+      "checkOutDate": "2024-10-11",
+      "guests": {
+        "adults": 2,
+        "children": 0,
+        "rooms": 1
+      }
+    },
+    {
+      "id": "6f54",
+      "destination": "Kolkata",
+      "checkInDate": "2024-10-02",
+      "checkOutDate": "2024-10-10",
+      "guests": {
+        "adults": 2,
+        "children": 0,
+        "rooms": 1
+      }
+    },
+    {
+      "id": "68db",
+      "destination": "Kolkata",
+      "checkInDate": "2024-10-10",
+      "checkOutDate": "2024-10-10",
+      "guests": {
+        "adults": 2,
+        "children": 0,
+        "rooms": 1
+      }
+    },
+    {
+      "id": "6a05",
+      "destination": "Kolkata",
+      "checkInDate": "2024-10-16",
+      "checkOutDate": "2024-10-16",
+      "guests": {
+        "adults": 2,
+        "children": 0,
+        "rooms": 1
+      }
+    }
+  ],
+  "accommodations": [
+    {
+      "id": "1",
+      "name": "What If Backpackers Hostel - Morjim",
+      "location": "Morjim, Goa",
+      "score": 7.7,
+      "reviews": 11,
+      "price": 1575,
+      "originalPrice": 2250,
+      "taxes": 189,
+      "roomType": "Deluxe Room",
+      "bedType": "1 queen bed",
+      "availability": "Only 2 rooms left at this price on our site",
+      "breakfastIncluded": false,
+      "description": "A cozy backpackers' hostel close to the beach, offering affordable stays.",
+      "image": "/assets/images/darjeeling.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Holiday Inn Goa Candolim",
+      "location": "Candolim, Goa",
+      "score": 8,
+      "reviews": 337,
+      "price": 6479,
+      "originalPrice": 6479,
+      "taxes": 777,
+      "roomType": "Standard Twin Room",
+      "bedType": "2 twin beds",
+      "availability": "Only 5 rooms left at this price on our site",
+      "breakfastIncluded": true,
+      "description": "Luxury accommodation with excellent amenities and a prime location."
+    },
+    {
+      "id": "3",
+      "name": "Treebo Rock Valley",
+      "location": "Manali, Himachal Pradesh",
+      "score": 7.8,
+      "reviews": 81,
+      "price": 2404,
+      "originalPrice": 5226,
+      "taxes": 288,
+      "roomType": "Economy Double Room",
+      "bedType": "1 queen bed",
+      "availability": "Only 2 rooms left at this price on our site",
+      "breakfastIncluded": true,
+      "description": "A charming hotel in the hills with breathtaking views."
+    },
+    {
+      "id": "4",
+      "name": "FabHotel Springs",
+      "location": "Pune, Maharashtra",
+      "score": 9.3,
+      "reviews": 4,
+      "price": 1576,
+      "originalPrice": 2765,
+      "taxes": 223,
+      "roomType": "Deluxe Double Room",
+      "bedType": "1 full bed",
+      "availability": "Only 2 rooms left at this price on our site",
+      "breakfastIncluded": false,
+      "description": "A budget-friendly hotel with modern amenities."
+    },
+    {
+      "id": "5",
+      "name": "Nirvana Hill Resort",
+      "location": "Munnar, Kerala",
+      "score": 8.3,
+      "reviews": 115,
+      "price": 4500,
+      "originalPrice": 6000,
+      "taxes": 350,
+      "roomType": "Lake View Stone Cottage",
+      "bedType": "1 king bed",
+      "availability": "Available",
+      "breakfastIncluded": true,
+      "description": "A serene resort nestled in nature with beautiful lake views."
+    },
+    {
+      "id": "6",
+      "name": "Cozy Stay in Kolkata",
+      "location": "Kolkata, West Bengal",
+      "score": 4.5,
+      "reviews": 0,
+      "price": 3500,
+      "originalPrice": 4000,
+      "taxes": 200,
+      "roomType": "Standard Double Room",
+      "bedType": "1 queen bed",
+      "availability": "Available",
+      "breakfastIncluded": true,
+      "description": "A cozy stay with modern amenities, perfect for couples or small families."
+    }
+  ],
+  "popularDestinations": [
+    {
+      "destination": "Kolkata",
+      "image": "assets/images/kolkata.jpg",
+      "properties": 2,
+      "id": "8e85",
+      "propertyDetails": [
+        {
+          "propertyId": "prop01",
+          "name": "Grand Hotel Kolkata",
+          "address": "17 Park Street, Kolkata, India",
+          "rating": 4.5
+        },
+        {
+          "propertyId": "prop02",
+          "name": "Taj Bengal",
+          "address": "34B Belvedere Road, Alipore, Kolkata, India",
+          "rating": 4.7
+        }
+      ]
+    },
+    {
+      "destination": "New Delhi",
+      "image": "assets/images/delhi.jpg",
+      "properties": 3,
+      "id": "5668",
+      "propertyDetails": [
+        {
+          "propertyId": "p1",
+          "name": "Hotel New Delhi",
+          "address": "789 Connaught Place, New Delhi",
+          "rating": 4.8
+        },
+        {
+          "propertyId": "p2",
+          "name": "The Royal Delhi",
+          "address": "234 Rajpath, New Delhi",
+          "rating": 4.9
+        },
+        {
+          "propertyId": "p3",
+          "name": "Comfort Inn Delhi",
+          "address": "567 Paharganj, New Delhi",
+          "rating": 4.3
+        }
+      ]
+    },
+    {
+      "destination": "Bengaluru",
+      "image": "assets/images/bengaluru.jpg",
+      "properties": 2,
+      "id": "b8a7",
+      "propertyDetails": [
+        {
+          "propertyId": "p1",
+          "name": "Hotel Bengaluru",
+          "address": "12 MG Road, Bengaluru",
+          "rating": 4.6
+        },
+        {
+          "propertyId": "p2",
+          "name": "The Garden City Inn",
+          "address": "45 Brigade Road, Bengaluru",
+          "rating": 4.4
+        }
+      ]
+    },
+    {
+      "destination": "Mumbai",
+      "image": "assets/images/mumbai.jpg",
+      "properties": 4,
+      "id": "4fbf",
+      "propertyDetails": [
+        {
+          "propertyId": "m1",
+          "name": "Hotel Taj Mahal Palace",
+          "address": "Apollo Bunder, Mumbai",
+          "rating": 4.9
+        },
+        {
+          "propertyId": "m2",
+          "name": "JW Marriott Mumbai Juhu",
+          "address": "Juhu Tara Rd, Juhu, Mumbai",
+          "rating": 4.7
+        },
+        {
+          "propertyId": "m3",
+          "name": "The Oberoi, Mumbai",
+          "address": "Nariman Point, Mumbai",
+          "rating": 4.8
+        },
+        {
+          "propertyId": "m4",
+          "name": "Trident, Nariman Point",
+          "address": "Nariman Point, Mumbai",
+          "rating": 4.6
+        }
+      ]
+    },
+    {
+      "destination": "Puri",
+      "image": "assets/images/puri.jpg",
+      "properties": 2,
+      "id": "5cc5",
+      "propertyDetails": [
+        {
+          "propertyId": "p1",
+          "name": "Hotel Swosti Premium",
+          "address": "Chakratirtha Road, Puri",
+          "rating": 4.5
+        },
+        {
+          "propertyId": "p2",
+          "name": "The Chariot Resort & Spa",
+          "address": "Puri Sea Beach, Puri",
+          "rating": 4.6
+        }
+      ]
+    },
+    {
+      "destination": "Darjeeling",
+      "image": "assets/images/darjeling.jpg",
+      "properties": 2,
+      "id": "3824",
+      "propertyDetails": [
+        {
+          "propertyId": "d1",
+          "name": "Hotel Hilltop",
+          "address": "The Mall, Darjeeling",
+          "rating": 4.5
+        },
+        {
+          "propertyId": "d2",
+          "name": "Mayfair Darjeeling",
+          "address": "The Mall, Darjeeling",
+          "rating": 4.6
+        }
+      ]
+    }
+  ],
+  "bookings": [
+    {
+      "id": "e500",
+      "name": "moumita",
+      "paymentMethod": "Cash",
+      "userId": null,
+      "accommodation": {
+        "id": "1",
+        "name": "What If Backpackers Hostel - Morjim",
+        "location": "Morjim, Goa",
+        "score": 7.7,
+        "reviews": 11,
+        "price": 1575,
+        "originalPrice": 2250,
+        "taxes": 189,
+        "roomType": "Deluxe Room",
+        "bedType": "1 queen bed",
+        "availability": "Only 2 rooms left at this price on our site",
+        "breakfastIncluded": false,
+        "description": "A cozy backpackers' hostel close to the beach, offering affordable stays.",
+        "image": "/assets/images/darjeeling.jpg"
+      }
+    },
+    {
+      "id": "d827",
+      "name": "Test",
+      "paymentMethod": "PayPal",
+      "userId": null,
+      "accommodation": {
+        "id": "2",
+        "name": "Holiday Inn Goa Candolim",
+        "location": "Candolim, Goa",
+        "score": 8,
+        "reviews": 337,
+        "price": 6479,
+        "originalPrice": 6479,
+        "taxes": 777,
+        "roomType": "Standard Twin Room",
+        "bedType": "2 twin beds",
+        "availability": "Only 5 rooms left at this price on our site",
+        "breakfastIncluded": true,
+        "description": "Luxury accommodation with excellent amenities and a prime location."
+      }
+    },
+    {
+      "id": "f5d8",
+      "name": "moumita",
+      "paymentMethod": "Cash",
+      "userId": null,
+      "accommodation": {
+        "id": "3",
+        "name": "Treebo Rock Valley",
+        "location": "Manali, Himachal Pradesh",
+        "score": 7.8,
+        "reviews": 81,
+        "price": 2404,
+        "originalPrice": 5226,
+        "taxes": 288,
+        "roomType": "Economy Double Room",
+        "bedType": "1 queen bed",
+        "availability": "Only 2 rooms left at this price on our site",
+        "breakfastIncluded": true,
+        "description": "A charming hotel in the hills with breathtaking views."
+      }
+    },
+    {
+      "id": "b398",
+      "name": "moumita",
+      "paymentMethod": "PayPal",
+      "userId": null,
+      "accommodation": {
+        "id": "5",
+        "name": "Nirvana Hill Resort",
+        "location": "Munnar, Kerala",
+        "score": 8.3,
+        "reviews": 115,
+        "price": 4500,
+        "originalPrice": 6000,
+        "taxes": 350,
+        "roomType": "Lake View Stone Cottage",
+        "bedType": "1 king bed",
+        "availability": "Available",
+        "breakfastIncluded": true,
+        "description": "A serene resort nestled in nature with beautiful lake views."
+      }
+    },
+    {
+      "id": "c8f3",
+      "name": "moumita",
+      "paymentMethod": "Cash",
+      "userId": null,
+      "accommodation": {
+        "id": "2",
+        "name": "Holiday Inn Goa Candolim",
+        "location": "Candolim, Goa",
+        "score": 8,
+        "reviews": 337,
+        "price": 6479,
+        "originalPrice": 6479,
+        "taxes": 777,
+        "roomType": "Standard Twin Room",
+        "bedType": "2 twin beds",
+        "availability": "Only 5 rooms left at this price on our site",
+        "breakfastIncluded": true,
+        "description": "Luxury accommodation with excellent amenities and a prime location."
+      }
+    },
+    {
+      "id": "72c9",
+      "name": "Test",
+      "paymentMethod": "Credit Card",
+      "userId": null,
+      "accommodation": {
+        "id": "2",
+        "name": "Holiday Inn Goa Candolim",
+        "location": "Candolim, Goa",
+        "score": 8,
+        "reviews": 337,
+        "price": 6479,
+        "originalPrice": 6479,
+        "taxes": 777,
+        "roomType": "Standard Twin Room",
+        "bedType": "2 twin beds",
+        "availability": "Only 5 rooms left at this price on our site",
+        "breakfastIncluded": true,
+        "description": "Luxury accommodation with excellent amenities and a prime location."
+      }
+    },
+    {
+      "id": "657d",
+      "name": "",
+      "paymentMethod": "Cash",
+      "userId": "",
+      "accommodation": {
+        "id": "2",
+        "name": "Holiday Inn Goa Candolim",
+        "location": "Candolim, Goa",
+        "score": 8,
+        "reviews": 337,
+        "price": 6479,
+        "originalPrice": 6479,
+        "taxes": 777,
+        "roomType": "Standard Twin Room",
+        "bedType": "2 twin beds",
+        "availability": "Only 5 rooms left at this price on our site",
+        "breakfastIncluded": true,
+        "description": "Luxury accommodation with excellent amenities and a prime location."
+      }
+    },
+    {
+      "id": "ff79",
+      "name": "Test",
+      "paymentMethod": "Cash",
+      "userId": null,
+      "accommodation": {
+        "id": "3",
+        "name": "Treebo Rock Valley",
+        "location": "Manali, Himachal Pradesh",
+        "score": 7.8,
+        "reviews": 81,
+        "price": 2404,
+        "originalPrice": 5226,
+        "taxes": 288,
+        "roomType": "Economy Double Room",
+        "bedType": "1 queen bed",
+        "availability": "Only 2 rooms left at this price on our site",
+        "breakfastIncluded": true,
+        "description": "A charming hotel in the hills with breathtaking views."
+      }
+    },
+    {
+      "id": "a0d8",
+      "name": "Test",
+      "paymentMethod": "Cash",
+      "userId": null,
+      "accommodation": {
+        "id": "5",
+        "name": "Nirvana Hill Resort",
+        "location": "Munnar, Kerala",
+        "score": 8.3,
+        "reviews": 115,
+        "price": 4500,
+        "originalPrice": 6000,
+        "taxes": 350,
+        "roomType": "Lake View Stone Cottage",
+        "bedType": "1 king bed",
+        "availability": "Available",
+        "breakfastIncluded": true,
+        "description": "A serene resort nestled in nature with beautiful lake views."
+      }
+    },
+    {
+      "id": "bb0c",
+      "name": "moumita",
+      "paymentMethod": "Cash",
+      "userId": null,
+      "accommodation": {
+        "id": "4",
+        "name": "FabHotel Springs",
+        "location": "Pune, Maharashtra",
+        "score": 9.3,
+        "reviews": 4,
+        "price": 1576,
+        "originalPrice": 2765,
+        "taxes": 223,
+        "roomType": "Deluxe Double Room",
+        "bedType": "1 full bed",
+        "availability": "Only 2 rooms left at this price on our site",
+        "breakfastIncluded": false,
+        "description": "A budget-friendly hotel with modern amenities."
+      }
+    },
+    {
+      "id": "79c8",
+      "name": "moumita",
+      "paymentMethod": "PayPal",
+      "userId": null,
+      "accommodation": {
+        "id": "5",
+        "name": "Nirvana Hill Resort",
+        "location": "Munnar, Kerala",
+        "score": 8.3,
+        "reviews": 115,
+        "price": 4500,
+        "originalPrice": 6000,
+        "taxes": 350,
+        "roomType": "Lake View Stone Cottage",
+        "bedType": "1 king bed",
+        "availability": "Available",
+        "breakfastIncluded": true,
+        "description": "A serene resort nestled in nature with beautiful lake views."
+      }
+    },
+    {
+      "id": "4ea3",
+      "name": "Rijwan Shaikh",
+      "paymentMethod": "PayPal",
+      "userId": null,
+      "accommodation": {
+        "id": "2",
+        "name": "Holiday Inn Goa Candolim",
+        "location": "Candolim, Goa",
+        "score": 8,
+        "reviews": 337,
+        "price": 6479,
+        "originalPrice": 6479,
+        "taxes": 777,
+        "roomType": "Standard Twin Room",
+        "bedType": "2 twin beds",
+        "availability": "Only 5 rooms left at this price on our site",
+        "breakfastIncluded": true,
+        "description": "Luxury accommodation with excellent amenities and a prime location."
+      }
+    },
+    {
+      "id": "28b2",
+      "name": "Moumita",
+      "paymentMethod": "Cash",
+      "userId": null,
+      "accommodation": {
+        "id": "1",
+        "name": "What If Backpackers Hostel - Morjim",
+        "location": "Morjim, Goa",
+        "score": 7.7,
+        "reviews": 11,
+        "price": 1575,
+        "originalPrice": 2250,
+        "taxes": 189,
+        "roomType": "Deluxe Room",
+        "bedType": "1 queen bed",
+        "availability": "Only 2 rooms left at this price on our site",
+        "breakfastIncluded": false,
+        "description": "A cozy backpackers' hostel close to the beach, offering affordable stays.",
+        "image": "/assets/images/darjeeling.jpg"
+      }
+    },
+    {
+      "id": "3eaa",
+      "name": "Neha",
+      "paymentMethod": "PayPal",
+      "userId": null,
+      "accommodation": {
+        "id": "6",
+        "name": "Cozy Stay in Kolkata",
+        "location": "Kolkata, West Bengal",
+        "score": 4.5,
+        "reviews": 0,
+        "price": 3500,
+        "originalPrice": 4000,
+        "taxes": 200,
+        "roomType": "Standard Double Room",
+        "bedType": "1 queen bed",
+        "availability": "Available",
+        "breakfastIncluded": true,
+        "description": "A cozy stay with modern amenities, perfect for couples or small families."
+      }
+    },
+    {
+      "id": "743c",
+      "name": "Mou Ahamed",
+      "paymentMethod": "Cash",
+      "userId": null,
+      "accommodation": {
+        "id": "3",
+        "name": "Treebo Rock Valley",
+        "location": "Manali, Himachal Pradesh",
+        "score": 7.8,
+        "reviews": 81,
+        "price": 2404,
+        "originalPrice": 5226,
+        "taxes": 288,
+        "roomType": "Economy Double Room",
+        "bedType": "1 queen bed",
+        "availability": "Only 2 rooms left at this price on our site",
+        "breakfastIncluded": true,
+        "description": "A charming hotel in the hills with breathtaking views."
+      }
+    },
+    {
+      "id": "b260",
+      "name": "Mou Ahamed",
+      "paymentMethod": "Cash",
+      "userId": null,
+      "accommodation": {
+        "id": "1",
+        "name": "What If Backpackers Hostel - Morjim",
+        "location": "Morjim, Goa",
+        "score": 7.7,
+        "reviews": 11,
+        "price": 1575,
+        "originalPrice": 2250,
+        "taxes": 189,
+        "roomType": "Deluxe Room",
+        "bedType": "1 queen bed",
+        "availability": "Only 2 rooms left at this price on our site",
+        "breakfastIncluded": false,
+        "description": "A cozy backpackers' hostel close to the beach, offering affordable stays.",
+        "image": "/assets/images/darjeeling.jpg"
+      }
+    },
+    {
+      "id": "3b58",
+      "name": "Mou Ahamed",
+      "paymentMethod": "PayPal",
+      "userId": null,
+      "accommodation": {
+        "id": "2",
+        "name": "Holiday Inn Goa Candolim",
+        "location": "Candolim, Goa",
+        "score": 8,
+        "reviews": 337,
+        "price": 6479,
+        "originalPrice": 6479,
+        "taxes": 777,
+        "roomType": "Standard Twin Room",
+        "bedType": "2 twin beds",
+        "availability": "Only 5 rooms left at this price on our site",
+        "breakfastIncluded": true,
+        "description": "Luxury accommodation with excellent amenities and a prime location."
+      }
+    },
+    {
+      "id": "df51",
+      "name": "Rizwan Shaikh",
+      "paymentMethod": "Cash",
+      "userId": null,
+      "accommodation": {
+        "id": "3",
+        "name": "Treebo Rock Valley",
+        "location": "Manali, Himachal Pradesh",
+        "score": 7.8,
+        "reviews": 81,
+        "price": 2404,
+        "originalPrice": 5226,
+        "taxes": 288,
+        "roomType": "Economy Double Room",
+        "bedType": "1 queen bed",
+        "availability": "Only 2 rooms left at this price on our site",
+        "breakfastIncluded": true,
+        "description": "A charming hotel in the hills with breathtaking views."
+      }
+    },
+    {
+      "id": "c041",
+      "name": "Rizwan Shaikh",
+      "paymentMethod": "Cash",
+      "userId": null,
+      "accommodation": {
+        "id": "4",
+        "name": "FabHotel Springs",
+        "location": "Pune, Maharashtra",
+        "score": 9.3,
+        "reviews": 4,
+        "price": 1576,
+        "originalPrice": 2765,
+        "taxes": 223,
+        "roomType": "Deluxe Double Room",
+        "bedType": "1 full bed",
+        "availability": "Only 2 rooms left at this price on our site",
+        "breakfastIncluded": false,
+        "description": "A budget-friendly hotel with modern amenities."
+      }
+    },
+    {
+      "id": "9de5",
+      "name": "Moumita Ahamed",
+      "paymentMethod": "Cash",
+      "userId": null,
+      "accommodation": {
+        "id": "1",
+        "name": "What If Backpackers Hostel - Morjim",
+        "location": "Morjim, Goa",
+        "score": 7.7,
+        "reviews": 11,
+        "price": 1575,
+        "originalPrice": 2250,
+        "taxes": 189,
+        "roomType": "Deluxe Room",
+        "bedType": "1 queen bed",
+        "availability": "Only 2 rooms left at this price on our site",
+        "breakfastIncluded": false,
+        "description": "A cozy backpackers' hostel close to the beach, offering affordable stays.",
+        "image": "/assets/images/darjeeling.jpg"
+      }
+    },
+    {
+      "id": "5e34",
+      "name": "Moumita Ahamed",
+      "paymentMethod": "PayPal",
+      "userId": null,
+      "accommodation": {
+        "id": "2",
+        "name": "Holiday Inn Goa Candolim",
+        "location": "Candolim, Goa",
+        "score": 8,
+        "reviews": 337,
+        "price": 6479,
+        "originalPrice": 6479,
+        "taxes": 777,
+        "roomType": "Standard Twin Room",
+        "bedType": "2 twin beds",
+        "availability": "Only 5 rooms left at this price on our site",
+        "breakfastIncluded": true,
+        "description": "Luxury accommodation with excellent amenities and a prime location."
+      }
+    },
+    {
+      "id": "22be",
+      "name": "Moumita Ahamed",
+      "paymentMethod": "Credit Card",
+      "userId": "1f11",
+      "numberOfPersons": "2",
+      "accommodation": {
+        "id": "1",
+        "name": "What If Backpackers Hostel - Morjim",
+        "location": "Morjim, Goa",
+        "score": 7.7,
+        "reviews": 11,
+        "price": 1575,
+        "originalPrice": 2250,
+        "taxes": 189,
+        "roomType": "Deluxe Room",
+        "bedType": "1 queen bed",
+        "availability": "Only 2 rooms left at this price on our site",
+        "breakfastIncluded": false,
+        "description": "A cozy backpackers' hostel close to the beach, offering affordable stays.",
+        "image": "/assets/images/darjeeling.jpg"
+      }
+    },
+    {
+      "id": "265a",
+      "name": "Moumita Ahamed",
+      "paymentMethod": "Credit Card",
+      "userId": "1f11",
+      "numberOfPersons": "3",
+      "accommodation": {
+        "id": "3",
+        "name": "Treebo Rock Valley",
+        "location": "Manali, Himachal Pradesh",
+        "score": 7.8,
+        "reviews": 81,
+        "price": 2404,
+        "originalPrice": 5226,
+        "taxes": 288,
+        "roomType": "Economy Double Room",
+        "bedType": "1 queen bed",
+        "availability": "Only 2 rooms left at this price on our site",
+        "breakfastIncluded": true,
+        "description": "A charming hotel in the hills with breathtaking views."
+      }
+    },
+    {
+      "id": "d4d8",
+      "name": "Moumita Ahamed",
+      "paymentMethod": "PayPal",
+      "userId": "1f11",
+      "persons": "2",
+      "totalPrice": 9000,
+      "accommodation": {
+        "id": "5",
+        "name": "Nirvana Hill Resort",
+        "location": "Munnar, Kerala",
+        "score": 8.3,
+        "reviews": 115,
+        "price": 4500,
+        "originalPrice": 6000,
+        "taxes": 350,
+        "roomType": "Lake View Stone Cottage",
+        "bedType": "1 king bed",
+        "availability": "Available",
+        "breakfastIncluded": true,
+        "description": "A serene resort nestled in nature with beautiful lake views."
+      }
+    },
+    {
+      "id": "3b0c",
+      "name": "Moumita Ahamed",
+      "paymentMethod": "Credit Card",
+      "userId": "1f11",
+      "persons": "2",
+      "totalPrice": 7000,
+      "accommodation": {
+        "id": "6",
+        "name": "Cozy Stay in Kolkata",
+        "location": "Kolkata, West Bengal",
+        "score": 4.5,
+        "reviews": 0,
+        "price": 3500,
+        "originalPrice": 4000,
+        "taxes": 200,
+        "roomType": "Standard Double Room",
+        "bedType": "1 queen bed",
+        "availability": "Available",
+        "breakfastIncluded": true,
+        "description": "A cozy stay with modern amenities, perfect for couples or small families."
+      }
+    },
+    {
+      "id": "aa1d",
+      "name": "Moumita Ahamed",
+      "paymentMethod": "PayPal",
+      "userId": "1f11",
+      "persons": "2",
+      "totalPrice": 4808,
+      "accommodation": {
+        "id": "3",
+        "name": "Treebo Rock Valley",
+        "location": "Manali, Himachal Pradesh",
+        "score": 7.8,
+        "reviews": 81,
+        "price": 2404,
+        "originalPrice": 5226,
+        "taxes": 288,
+        "roomType": "Economy Double Room",
+        "bedType": "1 queen bed",
+        "availability": "Only 2 rooms left at this price on our site",
+        "breakfastIncluded": true,
+        "description": "A charming hotel in the hills with breathtaking views."
+      }
+    },
+    {
+      "id": "fce7",
+      "name": "Moumita Ahamed",
+      "paymentMethod": "PayPal",
+      "userId": "1f11",
+      "persons": "2",
+      "totalPrice": 7000,
+      "accommodation": {
+        "id": "6",
+        "name": "Cozy Stay in Kolkata",
+        "location": "Kolkata, West Bengal",
+        "score": 4.5,
+        "reviews": 0,
+        "price": 3500,
+        "originalPrice": 4000,
+        "taxes": 200,
+        "roomType": "Standard Double Room",
+        "bedType": "1 queen bed",
+        "availability": "Available",
+        "breakfastIncluded": true,
+        "description": "A cozy stay with modern amenities, perfect for couples or small families."
+      }
+    },
+    {
+      "id": "1a4b",
+      "name": "Moumita Ahamed",
+      "paymentMethod": "Cash",
+      "userId": "1f11",
+      "persons": "2",
+      "totalPrice": 12958,
+      "accommodation": {
+        "id": "2",
+        "name": "Holiday Inn Goa Candolim",
+        "location": "Candolim, Goa",
+        "score": 8,
+        "reviews": 337,
+        "price": 6479,
+        "originalPrice": 6479,
+        "taxes": 777,
+        "roomType": "Standard Twin Room",
+        "bedType": "2 twin beds",
+        "availability": "Only 5 rooms left at this price on our site",
+        "breakfastIncluded": true,
+        "description": "Luxury accommodation with excellent amenities and a prime location."
+      }
+    },
+    {
+      "id": "0e72",
+      "name": "Moumita Ahamed",
+      "paymentMethod": "Credit Card",
+      "userId": "1f11",
+      "persons": "2",
+      "totalPrice": 9000,
+      "accommodation": {
+        "id": "5",
+        "name": "Nirvana Hill Resort",
+        "location": "Munnar, Kerala",
+        "score": 8.3,
+        "reviews": 115,
+        "price": 4500,
+        "originalPrice": 6000,
+        "taxes": 350,
+        "roomType": "Lake View Stone Cottage",
+        "bedType": "1 king bed",
+        "availability": "Available",
+        "breakfastIncluded": true,
+        "description": "A serene resort nestled in nature with beautiful lake views."
+      }
+    },
+    {
+      "id": "2cf9",
+      "name": "Moumita Ahamed",
+      "paymentMethod": "PayPal",
+      "userId": "1f11",
+      "persons": "2",
+      "totalPrice": 3152,
+      "accommodation": {
+        "id": "4",
+        "name": "FabHotel Springs",
+        "location": "Pune, Maharashtra",
+        "score": 9.3,
+        "reviews": 4,
+        "price": 1576,
+        "originalPrice": 2765,
+        "taxes": 223,
+        "roomType": "Deluxe Double Room",
+        "bedType": "1 full bed",
+        "availability": "Only 2 rooms left at this price on our site",
+        "breakfastIncluded": false,
+        "description": "A budget-friendly hotel with modern amenities."
+      }
+    }
+  ]
+}

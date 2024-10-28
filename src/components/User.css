@@ -1,0 +1,59 @@
+/* User.css */
+
+/* Modal Background */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure it's on top of other elements */
+}
+
+/* Modal Content */
+.popup-content {
+  background: white; /* White background for the modal */
+  padding: 20px; /* Space inside the modal */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  width: 400px; /* Fixed width */
+}
+
+/* Modal Title */
+.popup-content h3 {
+  margin-top: 0; /* Remove default margin */
+}
+
+/* Labels */
+.popup-content label {
+  display: block; /* Make labels block elements */
+  margin-bottom: 10px; /* Space between labels */
+}
+
+/* Input Fields */
+.popup-content input[type="text"],
+.popup-content input[type="email"],
+.popup-content input[type="password"],
+.popup-content input[type="file"] {
+  width: 100%; /* Full width inputs */
+  padding: 8px; /* Padding inside inputs */
+  margin-top: 5px; /* Space above inputs */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 4px; /* Rounded corners for inputs */
+}
+
+/* Button Styles */
+.popup-content button {
+  margin-right: 10px; /* Space between buttons */
+}
+
+/* Responsive Design */
+@media (max-width: 500px) {
+  .popup-content {
+    width: 90%; /* Adjust width on smaller screens */
+  }
+}

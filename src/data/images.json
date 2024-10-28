@@ -1,0 +1,15 @@
+{
+    "images": [
+      {
+        "id": 1,
+        "url": "../assets/images/slider/kolkata.jpg",
+        "description": "kolkata"
+      },
+      {
+        "id": 2,
+        "url": "../assets/images/slider/maldives.jpg",
+        "description": "maldives"
+      }
+    ]
+  }
+  

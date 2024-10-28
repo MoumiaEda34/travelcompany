@@ -1,0 +1,39 @@
+.offer-card-body {
+    background-image: url('../assets/images/offer.png'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    color: white; /* Adjust text color for better readability */
+    padding: 20px; /* Add some padding */
+  }
+  .offer-card-body.card-body {
+    position: relative;
+}
+.card-title.h5 {
+    color: navy;
+    background: #fff;
+}
+p.card-text {
+    background: #fff;
+    color: navy;
+}
+.container h2 {
+    margin: 0;
+    padding-bottom: 0.5em;
+    color: rgb(18 61 131);
+    font-family: serif;
+    text-align: left;
+    font-size: 26px;
+    padding-top: 0.5em;
+}
+.offer-card-body.card-body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(22 21 21 / 57%);
+    z-index: 1;
+    height: 142px;
+}
+  

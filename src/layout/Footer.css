@@ -1,0 +1,27 @@
+
+.footer {
+    background-color:rgb(9 24 48); 
+    color: white;
+    padding: 20px 0;
+}
+  .footer-col {
+    margin-bottom: 20px; /* Spacing between columns */
+  }
+  
+  .footer h5 {
+    margin-bottom: 15px; /* Spacing below headings */
+  }
+  
+  .footer p {
+    margin: 0; /* Remove default margin */
+  }
+  
+  .footer a {
+    color: white; /* White link color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  

@@ -1,0 +1,16 @@
+.booking-confirmation {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .card {
+    border: 1px solid #dee2e6; /* Light border for cards */
+    border-radius: 5px;
+    margin-bottom: 2em;
+  }
+  
+  .card img {
+    height: auto; /* Fixed height for images */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+  }

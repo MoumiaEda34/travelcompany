@@ -1,0 +1,12 @@
+.content h2 {
+    margin: 0;
+    padding-bottom: 0.5em;
+    color: rgb(18 61 131);
+    font-family: serif;
+    text-align: left;
+    font-size: 26px;
+    padding-top: 0.5em;
+}
+table button {
+    margin: 2%;
+}
